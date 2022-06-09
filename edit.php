@@ -48,11 +48,14 @@ require_once('close.php');
 <h1>Modifier l'état de la fiche </h1>
     <p>Mois : <?= $result['mois'] ?></p>
     <p>Visiteur : <?= $result['idVisiteur'] ?></p>
+
+    
   <h2>Code Fiche </h2>
     <p>	VA	Validée et mise en paiement</p>
    <p> RB	Remboursée</p>
-   <p>CR	Fiche créée, saisie en cours</p>
+   <p>  CR	Fiche créée, saisie en cours</p>
    <p>	CL	Saisie clôturée</p>
+
 
 
     <form method="post">
@@ -67,6 +70,8 @@ require_once('close.php');
 
         <input type="hidden" name="id" value="<?= $result['idVisiteur'] ?>">
 
+
     </form>
 </body>
 </html>
+
