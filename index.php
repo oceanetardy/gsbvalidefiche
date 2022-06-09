@@ -23,11 +23,11 @@ require_once('close.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liste des types d'énergie</title>
+    <title>Liste des fiches</title>
 </head>
 <body>
 
-    <h1>Liste des types d'énergie</h1>
+    <h1>Liste des fiches</h1>
     <table>
         <thead>
             <th>ID Visiteur</th>
@@ -50,6 +50,6 @@ require_once('close.php');
         ?>
         </tbody>
     </table>
-    <a href="add.php">Ajouter</a>
+
 </body>
 </html>
